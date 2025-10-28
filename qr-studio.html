@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="QR Studio – Fast, simple QR & Barcode Scanner app by NovicePlus." />
+  <title>QR Studio – Smart QR & Barcode Scanner</title>
+  <link rel="stylesheet" href="qr.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>QR Studio</h1>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#download">Download</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Scan, Save, and Manage Your QR Codes Effortlessly</h2>
+      <p>QR Studio helps you scan, generate, and organize QR & Barcode data instantly — lightweight and offline-ready.</p>
+      <a href="#download" class="btn">Get the App</a>
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <div class="container">
+      <h3>Why Choose QR Studio?</h3>
+      <div class="grid">
+        <div class="card">
+          <h4>Fast & Accurate</h4>
+          <p>Instant recognition with real-time scanning.</p>
+        </div>
+        <div class="card">
+          <h4>Offline Storage</h4>
+          <p>Keep your scan history locally in SQLite — no cloud needed.</p>
+        </div>
+        <div class="card">
+          <h4>Generate & Share</h4>
+          <p>Create custom QR codes for links, contacts, or text in seconds.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="download" class="download">
+    <div class="container">
+      <h3>Download QR Studio</h3>
+      <p>Available on Google Play soon. Stay tuned!</p>
+      <a href="#" class="btn disabled">Coming Soon</a>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <div class="container">
+      <p>&copy; <span id="year"></span> NovicePlus. All rights reserved.</p>
+      <p><a href="https://noviceplus.github.io/qr-studio-privacy-policy/" target="_blank">Privacy Policy</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
